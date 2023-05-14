@@ -187,15 +187,15 @@ p {
   flex-basis: calc((100% - 72px) / 4);
 }
 .section-list-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 264px;
     height: 112px;
     left: 0px;
     top: 0px;
   background: #F4F4FD;
     border-radius: 4px;
-}
-.list-icon {
-background-position: center;
 }
 .main-link {
   font-family: var(--main-font-family);
