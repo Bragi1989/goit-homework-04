@@ -288,6 +288,47 @@ p {
 .social-list-icon:focus {
   fill: var(--accent-color);
 }
+/* ===============Sictions 5============ */
+.section-five {
+  padding: 120px 0;
+}
+.customers-name{
+  font-family: var(--main-font-family);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--color-backgraund);
+  margin-bottom: 72px;
+}
+.customers-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.compani-list {
+  width: calc((100% - 120) / 6);
+}
+.customers-list-icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  color: #8e8f99;
+}
+.customers-list-icon:hover,
+.customers-list-icon:focus {
+  columns: var(--accent-color);
+  border-color: var(--accent-color);
+}
+.customers-list-icon {
+  fill: currentColor;
+}
 /* -------Footer------ */
 .footer-link {
   display: flex;
@@ -331,9 +372,7 @@ p {
 
   color: var(--color-secondary-backgraund);
 }
-.footer-main-two {
 
-}
 .media {
   font-family: var(--main-font-family);
 font-weight: 500;
