@@ -348,7 +348,10 @@ p {
   background: var(--color-backgraund);
   padding: 100px 0;
 }
-
+.footer-conteiner {
+  display: flex;
+  align-items: baseline;
+}
 
 .logo-link {
   font-family: var(--secondary-font-family);
@@ -383,7 +386,11 @@ p {
 
   color: var(--color-secondary-backgraund);
 }
-
+.footer-main-two {
+  display: flex;
+  flex-direction: column;
+  margin-left: 120px;
+}
 .media {
   font-family: var(--main-font-family);
 font-weight: 500;
