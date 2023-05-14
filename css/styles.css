@@ -186,6 +186,17 @@ p {
 .list-one {
   flex-basis: calc((100% - 72px) / 4);
 }
+.section-list-icon {
+  width: 264px;
+    height: 112px;
+    left: 0px;
+    top: 0px;
+  background: #F4F4FD;
+    border-radius: 4px;
+}
+.list-icon {
+background-position: center;
+}
 .main-link {
   font-family: var(--main-font-family);
   font-weight: 500;
