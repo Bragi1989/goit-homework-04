@@ -282,22 +282,18 @@ p {
   justify-content: center;
   column-gap: 24px;
 }
+.social-list-item {
+  width: 40px;
+    height: 40px;
+}
 .social-list-link {
   display: flex;
   justify-content: center;
   align-items:center;
-  width: 40px;
-  height: 40px;
+  width: 100%;
+  height: 100%;
   border-radius: 50%;
-  background: #4D5AE5;
-}
-.social-list-link:hover .social-list-icon,
-.social-list-link:focus .social-list-icon {
-  fill: var(--accent-color);
-} 
-.social-list-icon:hover,
-.social-list-icon:focus {
-  fill: var(--accent-color);
+  background-color: #4D5AE5;
 }
 /* ===============Sictions 5============ */
 .section-five {
@@ -321,6 +317,7 @@ p {
 }
 .compani-list {
   width: calc((100% - 120) / 6);
+  height: 88px;
 }
 .customers-list-icon{
   display: flex;
@@ -399,6 +396,17 @@ line-height: 1.5;
 color: var(--color-btm-font);
 margin-bottom: 16px;
 }
+.social-list-icon:hover,
+ .social-list-icon:focus {
+fill: #31D0AA;
+}
+.social-list-icon {
+  fill: currentColor;
+}
+.social-list-item:hover,
+.social-list-item:focus {
+  fill: #31D0AA;
+}
 
 
 /* Portfolio */
@@ -471,4 +479,7 @@ margin-bottom: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-font-family);
+}
+.card-set-list:hover {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
