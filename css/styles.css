@@ -303,14 +303,17 @@ p {
   border-radius: 50%;
   background-color: #4D5AE5;
 }
+.social-list-icon {
+  fill: #f4f4fd;
+  width: 24;
+  height: 24;
+}
 
 .social-list-link:hover,
 .social-list-link:focus {
   background-color: #404bbf;
 }
-.social-list-icon {
-  fill: #f4f4fd;
-}
+
 /* ===============Sictions 5============ */
 .section-five {
   padding: 120px 0;
@@ -421,13 +424,22 @@ letter-spacing: 0.02em
 
   gap: 16px;
 }
+.social-link-two {
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #4D5AE5;
+}
 .social-list-icon {
   width: 24;
   height: 24;
   fill: var(--color-secondary-backgraund);
 }
-.social-list-link:hover,
-.social-list-link:focus {
+.social-link-two:hover,
+.social-link-two:focus {
 fill: #31D0AA;
 }
 .social-list-icon {
