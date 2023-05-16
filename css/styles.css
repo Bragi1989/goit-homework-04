@@ -440,10 +440,7 @@ letter-spacing: 0.02em
 }
 .social-link-two:hover,
 .social-link-two:focus {
-fill: #31D0AA;
-}
-.social-list-icon {
-  fill: currentColor;
+background-color:  #31D0AA;
 }
 
 /* Portfolio */
