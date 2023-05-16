@@ -51,16 +51,16 @@ p {
 /* ======= ==== Header===== ====== */
 .head-one {
   border-bottom: 1px solid var(--color-btm-two);
- 
+box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .head-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 40px;
-  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
-      0px 1px 1px rgba(46, 47, 66, 0.16),
-      0px 1px 6px rgba(46, 47, 66, 0.08);
+  
 }
 .nav-one {
   display: flex;
@@ -336,7 +336,7 @@ p {
   gap: 24px;
 }
 .compani-list-menu {
-  width: calc((100% - 120) / 6);
+  width: calc((100% - 120px) / 6);
   height: 88px;
 }
 .customer-link {
@@ -352,7 +352,6 @@ p {
 .customers-list-icon{
   width: 104;
   height: 56;
-  fill: currentColor;
 }
 .customers-link:hover,
 .customers-link:focus {
